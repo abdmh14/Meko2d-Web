@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meko2d Framework</title>
+</head>
+<body>
+
+<!-- Direct Download Link formatted as a button -->
+<a href="Meko2d.zip" download="Meko2d.zip" class="download-btn"></a>
+
+<!-- The clickable text link pointing to itch.io -->
+<a href="https://abdmh14.itch.io/meko2d" target="_blank" class="visit-link">Click here to visit the Meko2d page on Itch.io</a>
+
+<h1>Meko2d Is Framework to Make games And Application Run In 32-bit And 64-bit</h1>
+
+<h2>function Meko.Update()
+-------------------------
+put any code like: key : Meko_C_KeyIsPressed(0x27)
+-------------------------
+end
+</h2>
+<h3>Meko_C_DrawImage("player.png", x, y) --------load png file----------</h3>
+<h4>Meko_C_DrawRect(100, 150, 50, 50, 0, 255, 0) ----- draw a rect 100left 100top 50 width 50 height , 0 255 0 = green ---------</h4>
+
+<h5>Meko_C_PlaySound("music.mp3") ----- load and play sound -------</h5>
+<div id="obj"></div>
+
+<h6>------- Arrow Right: 0x27 Arrow Left: 0x25 Arrow Up: 0x26 Arrow Down: 0x28 Spacebar: 0x20 Left Shift: 0x10 --------- </h6>
+
+<style>
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat
+    height: 5000px;
+}
+h1 {
+    margin: 0;
+    font-size: 2rem; 
+    color: black;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace; 
+    position: absolute;
+    top: 200px;
+    width: 700px;
+    left: 300px;
+}
+
+/* Styled text link to position nicely above your button image */
+.visit-link {
+    position: absolute;
+    top: 420px; 
+    left: 300px;
+    font-size: 1.2rem;
+    color: #ff2449; /* Distinct itch.io brand color style */
+    text-decoration: none;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace;
+    font-weight: bold;
+}
+.visit-link:hover {
+    text-decoration: underline;
+    color: #ff526e;
+}
+
+.download-btn {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("download.png");
+    position: absolute;
+    top: 500px;
+    width: 700px;
+    height: 80px; 
+    left: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+h2 {
+    margin: 0;
+    font-size: 2rem; 
+    color: black;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace; 
+    position: absolute;
+    top: 1000px;
+    width: 700px;
+    left: 300px;
+}
+h3 {
+    margin: 0;
+    font-size: 2rem; 
+    color: black;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace; 
+    position: absolute;
+    top: 1850px;
+    width: 700px;
+    left: 300px;
+}
+#obj {
+    background: cyan;
+    position: absolute;
+    top: 5000px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+}
+h4 {
+    margin: 0;
+    font-size: 2rem; 
+    color: black;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace; 
+    position: absolute;
+    top: 2650px;
+    width: 700px;
+    left: 300px;
+}
+h5 {
+    margin: 0;
+    font-size: 2rem; 
+    color: black;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace; 
+    position: absolute;
+    top: 3500px;
+    width: 700px;
+    left: 300px;
+}
+h6 {
+    margin: 0;
+    font-size: 2rem; 
+    color: black;
+    font-family: 'Press Start 2P', 'Silkscreen', monospace; 
+    position: absolute;
+    top: 4330px;
+    width: 700px;
+    left: 300px;
+}
+</style>
+
+</body>
+</html>
